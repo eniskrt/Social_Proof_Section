@@ -86,6 +86,26 @@ h3{
 .rate:nth-child(3){
     margin-left: 4rem;
 }
+.star,
+.star-1,
+.star-2{
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: #ff9800;
+  }
+.star:last-child,
+.star-1:last-child,
+.star-2:last-child{
+    margin-right: 2rem;
+  }
+  .star_rating {
+    user-select: none;
+  }
+  
+  .star:hover {
+    cursor: pointer;
+  }
 @media(min-width:576px){
     body{
         background:url("../images/bg-pattern-top-desktop.svg"),url("../images/bg-pattern-bottom-desktop.svg");
